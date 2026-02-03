@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Dad! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Confetti Canvas -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Dad's Special Day 🎂</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#memories" class="nav-link">Memories</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#wishes" class="nav-link">Wishes</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">Happy Birthday</h1>
+            <h2 class="hero-subtitle animate-fade-in-delay">To the Best Dad Ever!</h2>
+            <p class="hero-text animate-fade-in-delay-2">Celebrating you today and always ❤️</p>
+            <button class="cta-button" id="celebrateBtn">🎉 Let's Celebrate! 🎉</button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="memories" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Why You're Amazing</h2>
+            <div class="cards-grid">
+                <div class="card card-1">
+                    <div class="card-icon">💪</div>
+                    <h3>My Hero</h3>
+                    <p>మీరు ఎప్పుడూ నా బలం, నా ప్రేరణ. అద్భుతమైన ఆదర్శంగా ఉండినందుకు ధన్యవాదాలు.</p>
+                </div>
+                <div class="card card-2">
+                    <div class="card-icon">❤️</div>
+                    <h3>Full of Love</h3>
+                    <p>మీ నిస్వార్థ ప్రేమ, మద్దతు నన్ను ఈరోజు నేను అయ్యేలా చేసింది. నేను ఎప్పటికీ కృతజ్ఞుడిని.</p>
+                </div>
+                <div class="card card-3">
+                    <div class="card-icon">😄</div>
+                    <h3>Always Fun</h3>
+                    <p>చిన్నప్పటి సాహసాల నుంచి పెద్దయ్యాక సంభాషణల వరకు ప్రతి క్షణాన్ని ప్రత్యేకంగా మార్చారు.</p>
+                </div>
+                <div class="card card-4">
+                    <div class="card-icon">🌟</div>
+                    <h3>Simply The Best</h3>
+                    <p>మీలాంటి వారు ఇంకెవ్వరూ లేరు. మీరు లక్షల్లో ఒకరు, మిమ్మల్ని నాన్న అని పిలవడం నా అదృష్టం.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">Our Journey Together</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Childhood</div>
+                        <h3>My First Hero</h3>
+                        <p>నాకు మొదటిసారి సైకిల్ తొక్కడం నేర్పారు, హోంవర్క్‌లో సహాయం చేశారు, ప్రతి కథను మాయాజాలంగా మార్చారు.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Teenage Years</div>
+                        <h3>My Guide</h3>
+                        <p>అన్ని ఒడిదుడుకుల్లో మీరు ఓర్పుతో, జ్ఞానంతో నా వెంట నిలిచారు.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">College</div>
+                        <h3>My Friend</h3>
+                        <p>ఇప్పుడు పెద్దవాడిగా, మన బంధం ఇంకా బలపడింది. మీరు నాన్న మాత్రమే కాదు, నా స్నేహితుడు కూడా.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Today</div>
+                        <h3>Forever Grateful</h3>
+                        <p>ప్రతి రోజు మీకు కృతజ్ఞుడిని. మరెన్నో సంవత్సరాలు ప్రేమ, నవ్వులు, జ్ఞాపకాలతో నిండాలి!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+    <div class="container">
+        <h2 class="section-title">అందమైన జ్ఞాపకాలు</h2>
+        <p class="section-subtitle">మనము కలిసి గడిపిన క్షణాలు</p>
+        <div class="gallery-grid">
+
+            <div class="gallery-item" data-category="family">
+                <img src="1.jpg">
+                <div class="gallery-overlay">
+                    <p>మా నాన్న ఒక లెజెండ్</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="fun">
+                <img src="2.jpg">
+                <div class="gallery-overlay">
+                    <p>సంబరాలు</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="celebration">
+                <img src="3.jpg">
+                <div class="gallery-overlay">
+                    <p>మహారాజు</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="4.jpg">
+                <div class="gallery-overlay">
+                    <p>ప్రకృతి నడకలు</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="family">
+                <img src="7.jpg">
+                <div class="gallery-overlay">
+                    <p>ప్రత్యేక క్షణాలు</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="fun">
+                <img src="6.jpg">
+                <div class="gallery-overlay">
+                    <p>తండ్రి మరియు కొడుకు</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Video Section -->
+<section class="video-section">
+    <div class="container">
+        <h2 class="section-title">A Special Message</h2>
+        <div class="video-container">
+            <div class="video-wrapper">
+                <video controls autoplay muted loop playsinline>
+                    <source src="NIVASDAD.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p class="video-caption">A heartfelt birthday song just for you! 🎵</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Wishes Section -->
+    <section id="wishes" class="wishes-section">
+        <div class="container">
+            <h2 class="section-title">Birthday Wishes</h2>
+            <div class="wishes-container">
+                <div class="wish-card">
+                    <div class="wish-icon">🎂</div>
+                    <h3>మీ రోజు ఆనందంతో నిండాలి</h3>
+                    <p>మీరు ఎంత అద్భుతమో, మీ పుట్టినరోజు కూడా అంతే అద్భుతంగా ఉండాలి!</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">🌟</div>
+                    <h3>ఇంకో అద్భుతమైన సంవత్సరానికి స్వాగతం</h3>
+                    <p>మీ కలలు, కోరికలు అన్నీ నెరవేరాలి!</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">🎁</div>
+                    <h3>మీరు అత్యుత్తమమైనదానికి అర్హులు</h3>
+                    <p>అద్భుతమైన నాన్నగా ఉన్నందుకు ధన్యవాదాలు!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Birthday Cake -->
+    <section class="cake-section">
+        <div class="container">
+            <h2 class="section-title">Make a Wish!</h2>
+            <p class="cake-instruction">Click the candles to blow them out! 🕯️</p>
+            <div class="birthday-cake">
+                <div class="candle" data-lit="true">
+                    <div class="flame"></div>
+                    <div class="wick"></div>
+                </div>
+                <div class="candle" data-lit="true">
+                    <div class="flame"></div>
+                    <div class="wick"></div>
+                </div>
+                <div class="candle" data-lit="true">
+                    <div class="flame"></div>
+                    <div class="wick"></div>
+                </div>
+                <div class="cake-body">
+                    <div class="cake-layer layer-1"></div>
+                    <div class="cake-layer layer-2"></div>
+                    <div class="cake-layer layer-3"></div>
+                </div>
+            </div>
+            <p class="wish-message" id="wishMessage"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Made with ❤️ for the World's Best Dad</p>
+            <p class="footer-subtitle">Happy Birthday! 🎉🎂🎈</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
